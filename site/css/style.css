@@ -1,8 +1,6 @@
-
-
-body{
+body {
     scroll-behavior: smooth;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     outline: none;

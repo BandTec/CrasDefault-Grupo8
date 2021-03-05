@@ -12,8 +12,8 @@ header li {
 
 header ul {
     margin: 20px;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 0.8rem;
+    font-weight: 700;
 }
 
 header ul:hover {
