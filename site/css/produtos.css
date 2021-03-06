@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background: #adadadad;
+}
+
+.fundo {
+    width: 100%;
+    height: 90vh;
+    background: url("../img/imgFundo.png");
+    background-size: cover;
+}
+
+.ofuscar {
+    height: 100%;
+    height: 100%;
+    background: #000000c2;
+}
+
+.info {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #adadad;
+
+}
+
+.info h3 {
+    width: 75%;
+}
+
+.botao {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao button {
+    padding: 20px;
+    background: none;
+    border: 4px solid#ba55d3;
+    border-radius: 50px;
+    color: #adadad;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.botao button:hover {
+    background: #ba55d369;
+    color: white;
+}
+
+.textbox {
+    margin: auto;
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.textos {
+    width: 40%;
+    margin: auto;
+}
+
+.produtos {
+    width: 100%;
+    overflow: auto;
+    background: #ba55d3;
+}
+
+.cards {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 30%;
+}
