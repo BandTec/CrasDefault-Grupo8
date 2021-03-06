@@ -6,82 +6,40 @@ body {
 .container-servicos {
     border-bottom: 2px solid #ba55d3;
     width: 100%;
-    height: 99vh;
-    background: url("../img/imgFundo.png");
+    height: 100vh;
+    background: url("../img/imgFundo.png") #000000c2;
     background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-blend-mode: color;
 }
 
 .content-servicos {
-    height: 100%;
-    height: 100%;
-    background: #000000c2;
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    height: 30%;
+    color: white;
 }
 
-.texto-servico {
-    width: 80%;
+.texto-servicos {
+    width: 100%;
     height: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    color: #adadad;
-
+    justify-content: space-around;
 }
 
-.texto-servico h3 {
-    width: 75%;
+.texto-servicos h1 {
+    line-height: 1.7rem;
+    text-transform: uppercase;
+    color: #ba55d3;
+    font-size: 1.5rem;
 }
 
-.botao {
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.botao button {
-    padding: 20px;
-    background: none;
-    border: 4px solid#ba55d3;
-    border-radius: 50px;
-    color: #adadad;
-    cursor: pointer;
-    transition: 0.7s;
-}
-
-.botao button:hover {
-    background: #ba55d369;
-    color: white;
-}
-
-.textbox {
-    margin: auto;
-    width: 80%;
-    height: 70vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.textos {
-    width: 40%;
-    margin: auto;
-}
-
-.produtos {
-    width: 100%;
-    overflow: auto;
-    background: #ba55d3;
-}
-
-.cards {
-    margin: auto;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.box {
-    width: 30%;
+.texto-servicos h3 {
+    width: 65%;
+    line-height: 1.7rem;
 }
