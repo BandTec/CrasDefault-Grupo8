@@ -1,7 +1,5 @@
-body {
-    scroll-behavior: smooth;
+body{
     font-family: 'Noto Sans JP', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    outline: none;
 }
